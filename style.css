@@ -1,32 +1,61 @@
-html{
-    background-color: rgb(22, 180, 248);
-}
 *{
-    border: solid 1px yellow
+	font-family: Arial, Helvetica, sans-serif;
+	/* border: 1px solid rgba(255, 255, 255, 0.363); */
+	padding: 2px;
+	margin: 0;
+	color: #3850a7;
+}
 
+body{
+	background-color: rgb(131, 215, 241);
 }
 
 main{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 5rem;
-
-    width: 100%
-    border: solid 
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	min-height: 80vh;
 }
+
+li a{
+	margin-block: 0.5rem;
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgb(253, 245, 182);
+	padding-inline: 1rem;
+	padding-block: 0.7rem;
+	border-radius: 5px;
+	border: solid 1px rgb(255, 247, 100);
+	transition: all .3s ease-in-out;
+}
+
+li a:hover{
+	background-color: rgba(150, 182, 223, 0.619);
+	border: solid 1px  rgb(0, 76, 175);
+
+	transform: scale(1.1) rotate(2deg);
+
+}
+
+ul{
+	list-style-type: none;
+}
+
 .titulo h1{
-    color:darkblue;
+    	text-align: center;
+        font-size: 3rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 
-   font-family: "BBH Sans Bogle", sans-serif;
-   font-size: x-large;
 }
-.nav a{
-    color: black;
-    text-decoration: none;
-    background-color: lightgray;
-    pading: 1rem;
-    display: inline-block;
-    margin: 0.5rem;
+
+.titulo p{
+    color: rgb(41, 124, 232);
+	text-align: center;
+	font-style: normal;
+	font-size: .9rem;
 }
